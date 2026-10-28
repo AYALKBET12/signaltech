@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ethio-telecom",
+    "name": "Ethio telecom",
+    "country": "Ethiopia",
+    "sectors": ["Telecommunications", "Digital services", "Cloud"],
+    "description": "Ethiopian telecommunications provider with mobile, connectivity, and digital service offerings.",
+    "officialUrl": "https://www.ethiotelecom.et/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check the official site for current products, coverage, prices, and notices."
+  },
+  {
+    "id": "safaricom-ethiopia",
+    "name": "Safaricom Ethiopia",
+    "country": "Ethiopia",
+    "sectors": ["Telecommunications", "Mobile money", "Digital services"],
+    "description": "Ethiopian telecommunications operator and part of the Safaricom group.",
+    "officialUrl": "https://www.safaricom.et/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check official service updates and regulatory notices for current availability."
+  },
+  {
+    "id": "kifiya",
+    "name": "Kifiya Financial Technology",
+    "country": "Ethiopia",
+    "sectors": ["Financial technology", "AI and data", "Digital platforms"],
+    "description": "Ethiopian technology company focused on digital platforms and data-driven services.",
+    "officialUrl": "https://kifiya.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Confirm current products and partnerships with the company."
+  },
+  {
+    "id": "gebeya",
+    "name": "Gebeya",
+    "country": "Ethiopia",
+    "sectors": ["Software development", "AI", "Digital talent"],
+    "description": "Technology company associated with African digital talent and software services.",
+    "officialUrl": "https://gebeya.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Confirm current services, locations, and programs with the company."
+  },
+  {
+    "id": "chapa",
+    "name": "Chapa",
+    "country": "Ethiopia",
+    "sectors": ["Financial technology", "Payments", "Developer tools"],
+    "description": "Ethiopian payments technology provider offering payment and integration services.",
+    "officialUrl": "https://chapa.co/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Verify current merchant availability and payment terms on the official site."
+  },
+  {
+    "id": "arifpay",
+    "name": "ArifPay",
+    "country": "Ethiopia",
+    "sectors": ["Financial technology", "Payments", "Digital services"],
+    "description": "Ethiopian digital payments and payment-acceptance technology provider.",
+    "officialUrl": "https://arifpay.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check official product information and current service availability."
+  },
+  {
+    "id": "qene-games",
+    "name": "Qene Games",
+    "country": "Ethiopia",
+    "sectors": ["Software development", "Games", "Digital media"],
+    "description": "Ethiopian game development studio creating interactive digital products.",
+    "officialUrl": "https://qenegames.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check the studio's official channels for current projects and releases."
+  },
+  {
+    "id": "iceaddis",
+    "name": "iceaddis",
+    "country": "Ethiopia",
+    "sectors": ["Innovation", "Startups", "Software development"],
+    "description": "Addis Ababa-based innovation hub and startup-support organization.",
+    "officialUrl": "https://iceaddis.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Confirm current programs and application dates with the organization."
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "country": "United States",
+    "sectors": ["Software development", "Cloud", "AI", "Cybersecurity"],
+    "description": "Global software and cloud company whose products include Windows, Azure, Microsoft 365, and developer tools.",
+    "officialUrl": "https://www.microsoft.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Use official product pages and service-health notices for current availability."
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "country": "United States",
+    "sectors": ["AI", "Cloud", "Software development", "Cybersecurity"],
+    "description": "Global technology company with search, Android, Google Cloud, and AI products.",
+    "officialUrl": "https://about.google/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Use official product pages and service-health notices for current availability."
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "country": "United States",
+    "sectors": ["Hardware", "Semiconductors", "AI", "Cloud"],
+    "description": "Semiconductor and computing company known for GPUs and accelerated-computing platforms.",
+    "officialUrl": "https://www.nvidia.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check company announcements and filings for current products and business updates."
+  },
+  {
+    "id": "amazon-aws",
+    "name": "Amazon Web Services",
+    "country": "United States",
+    "sectors": ["Cloud", "AI", "Cybersecurity", "Software development"],
+    "description": "Cloud computing and infrastructure provider operated by Amazon.",
+    "officialUrl": "https://aws.amazon.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check the AWS Health Dashboard for live service status in each region."
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "country": "United States",
+    "sectors": ["Cybersecurity", "Cloud", "Internet infrastructure"],
+    "description": "Internet infrastructure and security company offering network, application, and developer services.",
+    "officialUrl": "https://www.cloudflare.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check official incident and status pages for live service information."
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "country": "United States",
+    "sectors": ["AI", "Software development", "Research"],
+    "description": "AI research and product company developing models and software tools.",
+    "officialUrl": "https://openai.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check official release notes, product pages, and status notices for current information."
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "country": "United States",
+    "sectors": ["AI", "Research", "Software development"],
+    "description": "AI research and product company developing the Claude family of models and related tools.",
+    "officialUrl": "https://www.anthropic.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check official release notes, product pages, and status notices for current information."
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "country": "United States",
+    "sectors": ["AI", "Social media", "Hardware"],
+    "description": "Technology company operating social platforms and developing AI and computing products.",
+    "officialUrl": "https://about.meta.com/",
+    "status": "Directory profile; current operating status not independently verified",
+    "statusNote": "Check official newsroom and product pages for current announcements."
+  }
+]
