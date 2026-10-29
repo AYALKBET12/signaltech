@@ -32,16 +32,14 @@ change the backend topic list, restart the backend so it reloads its feeds.
 
 The root `render.yaml` configures one Node web service: Render builds the Vite
 frontend, Express serves the built page and API from one HTTPS origin, and a
-persistent disk at `/var/data` stores the news archive, collected Telegram
-posts, push subscriptions, and push keys.
+free Render instance runs the service without a persistent disk.
 
 1. Publish **the contents of this `tech-info` folder only** as a GitHub
    repository. Do not publish the whole Desktop folder: it contains unrelated
    personal files. The `git` command-line tool is not required; GitHub Desktop
    can publish this project folder.
 2. In Render, choose **New → Blueprint**, connect that GitHub repository, and
-   apply the `render.yaml` blueprint. Review Render's current plan and disk
-   charges before confirming; persistent disks require a paid service.
+   apply the `render.yaml` blueprint.
 3. In the Render service's environment settings, replace the example `CONTACT`
    value with an email address you control, in `mailto:you@example.com` format.
    Add optional API keys and social-source settings there—not in committed
@@ -50,10 +48,12 @@ posts, push subscriptions, and push keys.
    backend share that URL; Vite's local development proxy is not involved in
    production.
 
-The persistent disk protects local JSON data when the same service restarts or
-deploys, but it is not a database backup or multi-instance storage strategy.
-For a larger production service, migrate archives, subscriptions, and company
-records to managed PostgreSQL and configure backups.
+Render's free web services can spin down after inactivity, and their local
+filesystem is ephemeral. Archives, collected Telegram posts, push subscriptions,
+and push keys stored as local JSON can be lost when the service sleeps, restarts,
+or deploys. Scheduled refreshes and push notifications may also be delayed while
+the instance is asleep. Use a paid persistent disk or managed database if this
+data must survive restarts; configure backups for production.
 
 The project is now self-contained in this folder: `server.js`, `insights.js`,
 `companies.json`, `package.json`, `render.yaml`, and the `frontend` directory.
