@@ -1,0 +1,13 @@
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.env
+.env.*
+!.env.example
+*.log
+vapid.json
+subs.json
+sent.json
+archive.json
+insights.json
+social-articles.json
